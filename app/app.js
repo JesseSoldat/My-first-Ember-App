@@ -11,7 +11,11 @@ App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver
+
+  
 });
+
+
 
 loadInitializers(App, config.modulePrefix);
 
